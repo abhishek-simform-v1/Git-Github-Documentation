@@ -429,14 +429,14 @@
 - Remove some commit from feature branch.
  
 ```jsx
-vivek@sf-cpu-577:~/Desktop/Practicals$ cat file3.txt
+abhishek@sf-cpu-438:~/Desktop/practice$cat file3.txt
 hey there
-vivek@sf-cpu-577:~/Desktop/Practicals$ git commit -am "file 3 edited"
+abhishek@sf-cpu-438:~/Desktop/practice$ git commit -am "file 3 edited"
 [feature 5769bda] file 3 edited
  1 file changed, 1 insertion(+)
-vivek@sf-cpu-577:~/Desktop/Practicals$ git push origin feature
-Username for 'https://github.com': vivekp2412
-Password for 'https://vivekp2412@github.com': 
+abhishek@sf-cpu-438:~/Desktop/practice$ git push origin feature
+Username for 'https://github.com': abhishek-simform-v1
+Password for 'https://abhishek-simform-v1@github.com': 
 Enumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
 Delta compression using up to 8 threads
@@ -444,7 +444,7 @@ Compressing objects: 100% (2/2), done.
 Writing objects: 100% (3/3), 259 bytes | 259.00 KiB/s, done.
 Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-To https://github.com/vivekp2412/Practicals.git
+To https://github.com/abhishek-simform-v1/Practicals.git
    7c19b86..5769bda  feature -> feature
 ```
 
